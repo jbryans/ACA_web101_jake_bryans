@@ -1,0 +1,59 @@
+.grid-container {
+    height: 700px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 250px 50px 50px 50px 100px 100px 100px;
+    padding: 3em;
+    grid-gap: 2em;
+   
+
+
+}
+.profile{
+    box-shadow: 10px 10px 30px black;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("Kanye being Kanye.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+ header{
+    box-shadow: 10px 10px 30px black;
+    border: 1px solid red;
+    color: blue;
+    grid-column: 2/3;
+}
+.ulwithexp{
+    box-shadow: 10px 10px 30px black;
+    grid-column: 2/3;
+    grid-row: 2/-1;
+    border: blue 1px solid;
+}
+.experience{
+    border: red solid 1px;
+}
+.album{
+    border: green solid 1px;
+}
+.ulwitheducation{
+    box-shadow: 10px 10px 30px black;
+    border: purple solid 1px;
+    grid-column: 1/2;
+    grid-row: 2/4
+    
+
+}
+.ulwithskills{
+    box-shadow: 10px 10px 30px black;
+    border: teal solid 1px;
+    grid-row: 4/6;
+
+}
+.ulwithcontacts{
+    box-shadow: 10px 10px 30px black;
+    border: yellow solid 1px;
+    grid-row: 6/8;
+
+}
