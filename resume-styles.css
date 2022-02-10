@@ -38,7 +38,7 @@
     border: green solid 1px;
 }
 .ulwitheducation{
-    box-shadow: 10px 10px 30px black;
+    box-shadow: 10px 10px 30px blue;
     border: purple solid 1px;
     grid-column: 1/2;
     grid-row: 2/4
