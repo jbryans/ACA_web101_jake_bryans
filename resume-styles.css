@@ -18,9 +18,14 @@
     background-position: center;
     background-size: cover;
 }
+h1,.title,.about{
+    margin-left: 10%;
+}
+.experience,.album,ul,.skills,.contact,.where,.what,.education{
+    margin-left: 20%;
+}
 
  header{
-
     grid-column: 2/3;
     background-color: #eff0ee;
 }
